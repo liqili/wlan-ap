@@ -19,6 +19,8 @@ else
 fi
 
 cd ${BUILD_DIR}
+./scripts/feeds update -a
+./scripts/feeds install -a
 ./scripts/gen_config.py ${TARGET} || exit 1
 cd -
 
