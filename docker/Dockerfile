@@ -1,8 +1,7 @@
 FROM ubuntu:focal
-LABEL maintainer="Antonio Aloisio <gnuton@gnuton.org>"
+LABEL maintainer="Kunkka Li <liqili2005@gmail.com>"
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV TOOLCHAIN_BASE /opt/toolchains
 ENV LANG C.UTF-8
 ENV TERM xterm-256color
 
